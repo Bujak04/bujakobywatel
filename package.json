@@ -1,0 +1,11 @@
+{
+    "name": "bujakobywatel",
+    "description": "Twój cyfrowy dokument tożsamości",
+    "version": "1.0.0",
+    "private": false,
+    "homepage": "https://bujakm.github.io/bujakobywatel",
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    }
+}
